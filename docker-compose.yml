@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  go-web:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    ports:
+      - 8081:8081
+        
